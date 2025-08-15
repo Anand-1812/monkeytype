@@ -24,12 +24,40 @@
   transform: scale(1.05);
 }
 
-.title h1 {
+.title {
   position: relative;
-  bottom: 5px;
-  transition: color, 0.5s ease;
+  bottom: 12px;
 }
 
-.title h1:hover {
-  color: var(--main-color);
+.title .one {
+  position: relative;
+  top: 10px;
+  font-size: 0.8rem;
+  color: var(--sub-color);
 }
+
+.title .two {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.navIcons {
+  width: 20px;
+  height: 20px;
+  color: var(--sub-color);
+  transition: color 0.2s ease-in;
+}
+
+.navIcons:hover {
+  color: var(--text-color);
+}
+
+
+.nav {
+  position: relative;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
