@@ -3,6 +3,7 @@
   --bg-color: #323437;
   --text-color: #d1d0c5;
   --sub-color: #646669;
+  --sub-alt-color: #2c2e31;
   --font-family: "Roboto Mono", monospace;
 }
 
@@ -21,4 +22,7 @@
 
 .app {
   padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
