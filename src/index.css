@@ -1,1 +1,18 @@
+:root {
+  --bg-color: #323437;
+  --text-color: #d1d0c5;
+  --font-family: "Roboto Mono", monospace;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  font-family: var(--font-family);
+}
