@@ -1,4 +1,5 @@
 :root {
+  --main-color: #e2b714;
   --bg-color: #323437;
   --text-color: #d1d0c5;
   --font-family: "Roboto Mono", monospace;
@@ -15,4 +16,8 @@
   color: var(--text-color);
   min-height: 100vh;
   font-family: var(--font-family);
+}
+
+.app {
+  padding: 2rem 4rem;
 }
