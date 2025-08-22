@@ -17,12 +17,14 @@
   color: var(--sub-color);
   text-align: center;
   line-height: 1.5;
+  word-break: break-word; 
 }
 
 .options {
   width: 80vw;
   height: 10vh;
   background-color: var(--sub-alt-color);
+  border-radius: 0.5rem;
 }
 
 .regenerate-btn {
@@ -33,13 +35,29 @@
   cursor: pointer;
   color: var(--sub-color);
   font-size: 1rem;
-  transition: background 0.2s ease;
+  transition: color 0.2s ease, background-color 0.2s ease;
 }
 
-.regenerate-btn:hover {
+.regenerate-btn:hover,
+.regenerate-btn:focus {
   color: var(--sub-alt-color);
+  outline: none;
 }
 
-.main-one {
-  height: max-content;
+.cursor {
+  position: absolute;
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 2.5px;
+  height: 1.2em;   
+  background-color: var(--main-color);
+  animation: blink 1s infinite;
+  transition: left 0.15s ease, top 0.15s ease;
 }
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
