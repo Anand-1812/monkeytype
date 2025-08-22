@@ -25,9 +25,6 @@ function GenerateSentence({ wordCount = 29 }) {
 function Main() {
   return (
     <div className="main">
-      <div className="main-one">
-        <div className="options"></div>
-      </div>
       <GenerateSentence />
     </div>
   );
