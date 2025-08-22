@@ -16,13 +16,14 @@
 #root {
   background-color: var(--bg-color);
   color: var(--text-color);
-  min-height: 100vh;
   font-family: var(--font-family);
 }
 
 .app {
+  min-height: 100vh;
   padding: 2rem 4rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1.5rem;
 }
