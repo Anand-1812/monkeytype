@@ -8,7 +8,7 @@ import { IoMdSettings } from "react-icons/io";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="leftSide">
+      <div className="nav">
         <div className="logo">
           <img src={assets.monkey_type} alt="logo" className="navIcons" />
         </div>
@@ -23,7 +23,6 @@ function Navbar() {
           <IoMdSettings className="navIcons" />
         </nav>
       </div>
-      <div className="rightSide"></div>
     </div>
   )
 }

@@ -1,9 +1,12 @@
 .navbar {
+  width: 100%;
   display: flex;
 }
 
-.leftSide {
+.nav {
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0.8rem;
   cursor: pointer;
