@@ -13,8 +13,8 @@ function Navbar() {
           <img src={assets.monkey_type} alt="logo" className="navIcons" />
         </div>
         <div className="title">
-          <div className="one">monkey see</div>
-          <div className="two">monkeytype</div>
+          <div className="one">man see</div>
+          <div className="two">mantype</div>
         </div>
         <nav className="nav">
           <FaKeyboard className="navIcons" />
